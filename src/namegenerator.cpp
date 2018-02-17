@@ -11,7 +11,7 @@ void NameGenerator::_init() {
 void NameGenerator::train(const godot::PoolStringArray arr) {
 	std::vector<std::wstring> data;
 	std::wstring_convert<std::codecvt_utf8<wchar_t>, wchar_t> converter;
-	godot::Godot::print(std::to_string(arr.size()).c_str());
+
 	{ // locked scope
 		auto read = arr.read();
 		for (int i = 0; i < arr.size(); i++) {
