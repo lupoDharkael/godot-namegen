@@ -1,0 +1,50 @@
+# Godot-specific ignores
+.import/
+export.cfg
+.fscache
+logs/
+
+# Mono-specific ignores
+.mono/
+
+# System/tool-specific ignores
+.directory
+*.dblite
+*~
+logs
+*.os
+*.exp
+
+# GDNative ignores
+cpp_bindings/
+godot_headers/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
